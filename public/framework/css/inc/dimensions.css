@@ -1,0 +1,10 @@
+/* heights */
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+.img-fluid {
+    max-height: 100%;
+    max-width: 100%;
+}

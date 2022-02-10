@@ -1,0 +1,141 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* font family */
+
+.text-open-sans {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.text-arvo {
+    font-family: 'Arvo', serif !important;
+}
+
+.text-josefin {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.text-dancing {
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.text-montserrat {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.text-lato {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.text-roboto {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.text-fugaz {
+    font-family: 'Fugaz One', cursive !important;
+}
+
+.text-philosopher {
+    font-family: 'Philosopher', sans-serif !important;
+}
+
+/* display */
+
+.text-dots {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+/* colors */
+
+.text-main {
+    color: var(--main) !important;
+}
+
+.hover-text-main:hover {
+    cursor: pointer;
+    color: var(--main) !important;
+}
+
+.text-main-dark {
+    color: var(--main-dark) !important;
+}
+
+.hover-text-main-dark:hover {
+    cursor: pointer;
+    color: var(--main-dark) !important;
+}
+
+/* font sizes */
+
+html {
+    font-size: var(--font-size-sm);
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: var(--font-size-lg);
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: var(--font-size-md);
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: var(--font-size-sm);
+    }
+}
+
+/* others */
+
+.text-shadow {
+    text-shadow: 0 0 0.1rem black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+/* decoration */
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.hover-text-underline:hover {
+    text-decoration: underline;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+/* lists */
+
+.list-circle {
+    list-style-type: circle;
+}
+
+.list-square {
+    list-style-type: square;
+}

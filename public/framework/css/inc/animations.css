@@ -1,0 +1,53 @@
+/* keyframes */
+
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade_out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* effects */
+
+.ease-out-fast {
+    transition: ease-out 0.5s;
+}
+
+.fade-in {
+    animation: fade_in 0.5s linear;
+}
+
+.fade-out {
+    animation: fade_out 0.5s linear;
+}
+
+/* hidden effects */
+
+.hide-top {
+    transform: translateY(-100%);
+}
+
+.hide-bottom {
+    transform: translateY(100%);
+}
+
+.hide-left {
+    transform: translateX(-100%);
+}
+
+.hide-right {
+    transform: translateX(100%);
+}

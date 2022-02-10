@@ -1,0 +1,100 @@
+/* forms */
+
+.square::after {
+    content: "" !important;
+    display: block !important;
+    padding-top: 100% !important;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.circle::after {
+    content: "" !important;
+    display: block !important;
+    padding-top: 100% !important;
+}
+
+
+/* z index */
+
+.z-0 {
+    z-index: 0 !important;
+}
+
+.z-1 {
+    z-index: 1 !important;
+}
+
+.z-2 {
+    z-index: 2 !important;
+}
+
+.z-3 {
+    z-index: 3 !important;
+}
+
+.z-4 {
+    z-index: 4 !important;
+}
+
+.z-5 {
+    z-index: 5 !important;
+}
+
+.z-9999 {
+    z-index: 9999 !important;
+}
+
+/* positions */
+
+.absolute-full {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.fixed-full {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+/* display */
+
+.d-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-none {
+    display: none !important;
+}
+
+/* flex */
+
+.flex-grow {
+    flex: 1;
+}

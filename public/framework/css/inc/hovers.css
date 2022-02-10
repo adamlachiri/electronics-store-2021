@@ -1,0 +1,54 @@
+.hover-opacity {
+    opacity: 0.9;
+    cursor: pointer;
+    transition: linear 0.5s;
+}
+
+.hover-opacity:hover {
+    opacity: 1;
+}
+
+.hover-border:hover {
+    cursor: pointer;
+    border: solid 0.1rem;
+}
+
+.hover-saturate {
+    filter: saturate(0);
+    transition: ease-out 0.3s;
+}
+
+.hover-saturate:hover {
+    filter: saturate(100%);
+}
+
+
+
+.hover-outline:hover {
+    outline: 0.1rem solid white;
+}
+
+.hover-move-right:hover {
+    margin-left: 1rem !important;
+    transition: 0.1s ease-out;
+}
+
+/* cursor */
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-grab {
+    cursor: grab;
+}
+
+.cursor-grabbing {
+    cursor: grabbing;
+}
+
+/* active */
+
+.focus-shadow-main:focus {
+    box-shadow: 0 0 0.5rem var(--main);
+}

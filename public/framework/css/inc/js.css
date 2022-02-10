@@ -1,0 +1,255 @@
+/* js navbar dropdown */
+
+.js-nav-dropdown-btn {
+    cursor: pointer;
+}
+
+.js-nav-dropdown-box {
+    position: relative;
+    left: 0;
+    right: 0;
+    transition: ease-out 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+/* js dropdown */
+
+.js-dropdown-btn {
+    position: relative;
+    cursor: pointer;
+}
+
+.js-dropdown-box {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transition: ease-out 0.3s;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+
+/* js loading */
+
+.js-loading-page {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.js-loading-page img {
+    height: 4rem;
+}
+
+/* js carousel lg */
+
+.js-carousel-lg {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.js-carousel-lg .js-slider {
+    display: inline-flex;
+}
+
+.js-carousel-lg .js-next-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.js-carousel-lg .js-prev-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.js-carousel-lg .js-next {
+    cursor: pointer;
+}
+
+.js-carousel-lg .js-prev {
+    cursor: pointer;
+}
+
+.js-carousel-lg .js-pagination-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.js-carousel-lg .js-pagination-btn {
+    cursor: pointer;
+    background: gray;
+    box-shadow: 0 0 0.1rem black;
+}
+
+/* js carousel fade */
+
+.js-carousel-fade {
+    position: relative;
+}
+
+.js-carousel-fade .js-next-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.js-carousel-fade .js-prev-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.js-carousel-fade .js-next {
+    cursor: pointer;
+}
+
+.js-carousel-fade .js-prev {
+    cursor: pointer;
+}
+
+.js-carousel-fade .js-pagination-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.js-carousel-fade .js-pagination-btn {
+    cursor: pointer;
+    background: gray;
+    box-shadow: 0 0 0.1rem black;
+}
+
+/* carousel fade auto */
+
+.js-carousel-fade-auto {
+    position: relative;
+}
+
+.js-carousel-fade-auto .js-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* carousel */
+
+.js-carousel .js-slider-container {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.js-carousel .js-slider {
+    display: inline-flex;
+    align-items: center;
+}
+
+.js-carousel .js-btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.js-carousel .js-next {
+    cursor: pointer;
+}
+
+.js-carousel .js-prev {
+    cursor: pointer;
+}
+
+.js-carousel .js-scrollbar-container {
+    position: relative;
+}
+
+.js-carousel .js-scrollbar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+/* carousel vertical */
+
+.js-carousel-vertical {
+    overflow-y: hidden;
+    position: relative;
+}
+
+.js-carousel-vertical .js-btn-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.js-carousel-vertical .js-next {
+    cursor: pointer;
+}
+
+.js-carousel-vertical .js-prev {
+    cursor: pointer;
+}
+
+/* js zoom */
+
+.js-zoom {
+    cursor: pointer;
+}
+
+.js-zoom-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    padding: 0 3rem;
+    text-align: end;
+}
+
+.js-zoom-box .js-close {
+    margin: 2rem 0;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.js-zoom-box .js-close:hover {
+    opacity: 1;
+}
+
+.js-zoom-box .js-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.js-zoom-box img {
+    max-width: 100%;
+    max-height: 80vh;
+}

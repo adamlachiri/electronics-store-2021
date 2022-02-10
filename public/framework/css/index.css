@@ -1,0 +1,25 @@
+/* import css */
+@import 'inc/js.css';
+@import 'inc/animations.css';
+@import 'inc/backgrounds.css';
+@import 'inc/buttons.css';
+@import 'inc/defaults.css';
+@import 'inc/dimensions.css';
+@import 'inc/displays.css';
+@import 'inc/hovers.css';
+@import 'inc/js.css';
+@import 'inc/others.css';
+@import 'inc/typography.css';
+@import 'inc/corrections.css';
+
+/* css variables */
+:root {
+    --main: rgb(224, 224, 224);
+    --main-dark: rgb(48, 48, 48);
+    --light-transparent: rgba(255, 255, 255, 0.8);
+    --dark-transparent: rgba(0, 0, 0, 0.8);
+    --font-size-sm: 3vw;
+    --font-size-md: 16px;
+    --font-size-lg: 14px;
+    --bg-body: rgb(220, 220, 220);
+}

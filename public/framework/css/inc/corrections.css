@@ -1,0 +1,13 @@
+.d-sm-flex,
+.d-md-flex,
+.d-lg-flex,
+.d-sm-block,
+.d-md-block,
+.d-lg-block {
+    display: none;
+}
+
+.sticky-top,
+.position-sticky {
+    z-index: 1;
+}

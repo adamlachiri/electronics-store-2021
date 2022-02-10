@@ -1,0 +1,90 @@
+/* underlines */
+
+.underline-sm {
+    width: 10%;
+    height: 0.5rem;
+}
+
+.underline-md {
+    width: 25%;
+    height: 0.5rem;
+}
+
+.underline-lg {
+    width: 50%;
+    height: 0.5rem;
+}
+
+/* sidelines */
+
+.sideline-sm {
+    width: 0.1rem;
+}
+
+.sideline-md {
+    width: 0.3rem;
+}
+
+.sideline-lg {
+    width: 0.5rem;
+}
+
+/* shadows */
+
+.shadow-sm {
+    box-shadow: 0 0 0.1rem black;
+}
+
+.shadow {
+    box-shadow: 0 0 0.5rem black;
+}
+
+.shadow-lg {
+    box-shadow: 0 0 1rem black;
+}
+
+.hover-shadow-main:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0.5rem var(--main);
+}
+
+/* filters */
+
+.desaturate {
+    filter: saturate(0);
+}
+
+.blur {
+    filter: blur(4px);
+}
+
+.no-filter {
+    filter: none;
+}
+
+/* borders */
+
+.border-main {
+    border-color: var(--main) !important;
+}
+
+/* inputs */
+
+.required::after {
+    content: " *";
+    color: red;
+}
+
+.optional::after {
+    content: " ( optional )";
+    font-size: 0.7rem;
+    color: gray;
+}
+
+/* tables */
+
+@media (max-width: 576px) {
+    table {
+        font-size: 2vw !important;
+    }
+}
